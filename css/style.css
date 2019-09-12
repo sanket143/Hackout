@@ -97,9 +97,28 @@ h1.hackout-glow-wrapper a.hackout-glow {
   background-size: cover;
 }
 
+.schedule {
+  border-radius: 5px;
+}
+
+.schedule:hover {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 990px){
   .daiict-stuff {
     display: none;
+  }
+
+  h1.hackout-glow-wrapper {
+    font-size: 3em;
+  }
+
+  .headout-div .headout-img {
+    width: 235px;
   }
 }
 

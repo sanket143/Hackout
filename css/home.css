@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .raise-box {
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .main-heading {
-    font-family: "Barlow Condensed";
+    font-family: 'Manjari', sans-serif;
     font-weight: 900;
     letter-spacing: -0.07em;
     background: linear-gradient(45deg, #107ba0, #6bbdd3);
@@ -177,7 +177,7 @@ a:hover {
     -webkit-background-clip: text;
     color: transparent;
     padding: 1rem;
-    line-height: 0.8em;
+    font-size: 51px;
 }
 
 .subheading {
