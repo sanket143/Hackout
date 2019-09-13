@@ -108,17 +108,84 @@ h1.hackout-glow-wrapper a.hackout-glow {
   cursor: pointer;
 }
 
+.when-small {
+  display: none;
+}
+
+.about-daiict {
+  font-size: 30px !important;
+}
+
+.daiict-logo {
+  width: 72px;
+}
+
+@media only screen and (max-width: 986px){
+  .navbar-hackout {
+    background: black;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .credits img.daiict-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .main-heading.when-small {
+    text-align: center;
+    display: block;
+    font-size: 30px !important;
+  }
+
+  .short-text {
+    font-size: 30px;
+  }
+
+  .prize-label {
+    font-size: 20px;
+  }
+
+  .timeline-head {
+    display: none;
+  }
+
+  .internship-statement {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    line-height: initial;
+  }
+
+  .hackathon-date {
+    font-size: 25px;
+  }
+
+  .headout-img {
+    width: 180px;
+  }
+}
+
 @media only screen and (max-width: 990px){
   .daiict-stuff {
     display: none;
   }
 
+  .contact-name span {
+    font-size: 20px;
+  }
+
+  .hackathon-date .hackout-glow {
+    font-size: 21px;
+  }
+  
   h1.hackout-glow-wrapper {
     font-size: 3em;
   }
 
   .headout-div .headout-img {
-    width: 235px;
+    width: 200px;
   }
 }
 
