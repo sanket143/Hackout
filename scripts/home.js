@@ -4,7 +4,7 @@ $(window).on('load',
             $(".loader").fadeOut();
             $(".aHackout").addClass("a_Hackout");
             $(".a2019").addClass("a_2019");
-    }, 1000)
+        }, 1000)
     }
 )
 
@@ -12,7 +12,7 @@ $(window).on('load',
 document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
-        key: 'myhackathonkey',
+        key: 'hackout',
     }
 
     let script = document.createElement('script');
